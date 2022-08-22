@@ -1,0 +1,43 @@
+.app-container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+.gallery-container {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: 20px;
+}
+
+.main-image {
+  border-radius: 20px;
+}
+
+.heading {
+  font-size: 30px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #1e293b;
+  text-align: left;
+  margin: 20px;
+}
+
+.photography-by {
+  color: #64748b;
+  font-size: 15px;
+  font-family: 'Roboto';
+  text-align: left;
+  margin: 20px;
+}
+
+.images-list {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  flex-wrap: wrap;
+}
